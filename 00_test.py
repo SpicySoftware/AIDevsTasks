@@ -1,7 +1,7 @@
-from AIDevs import AIDevsTasks, API_KEY
+from AIDevs import AIDevsTasks
 
 
-dev_task = AIDevsTasks(API_KEY, 'helloapi', debug=True)
+dev_task = AIDevsTasks('helloapi', debug=True)
 
 task = dev_task.task()
 hint = dev_task.hint()
